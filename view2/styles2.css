@@ -1,0 +1,127 @@
+
+.body{
+    background-color: #181414;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    
+  }
+  .box div {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+  }
+  .traffic{
+      
+      width:270px;
+      height:135px;
+      border: 0;
+      border-radius: 3px;
+      
+  }
+
+  .high-score{
+      margin-top: 5px;
+      position: relative;
+      
+    }
+
+  .shoe-walk{
+      width:50px;
+      height: 50px;
+      
+      margin-right: 10px;
+  }
+  
+  .walk{
+    width: 120%;
+    }
+
+.user{
+    margin-right: 40px;
+}
+.door-img{
+    height: 30px;
+    width: 15px;
+    
+}
+.btn-start{
+    
+    margin-top: -40px;
+    width:300px;
+    height:165px;
+    font-size: 30px;
+}
+.contenedor{
+    margin-bottom:100px;
+    
+}
+
+.outside__box{
+    height: 120px;
+    width: 50px;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    border: solid 3px rgb(15, 19, 43);
+    box-shadow: 0px 0px 20px 3px rgb(15, 19, 43) inset;
+    border-radius: 0px;
+    
+}
+
+.light__box{
+    height: 33%;
+    width: auto;
+    margin: 3px;
+    background-color: #3d405b;
+    border: solid 3px black;
+    box-shadow: 0px 0px 20px 3px black inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.audio{
+    visibility: hidden;
+}
+.light{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    z-index: 77;
+}
+
+#red{
+    background-color: #ba181b;
+    box-shadow: 0px 0px 15px 8px #660708 inset;
+}
+
+#green{
+    background-color: #6a994e;
+    box-shadow: 0px 0px 15px 8px #52796f inset;    
+}
+#red.light.active{
+    background-color: #ef233c;
+    box-shadow: 0px 0px 15px 8px #ef233c;
+}
+#green.light.active{
+    background-color: #7ae582;
+    box-shadow: 0px 0px 15px 8px #7ae582;    
+}
+
+
+
+.box__border{
+    background-image: linear-gradient(to top, #22223b,#4a4e69);
+    position: absolute;
+}
+
+
+
